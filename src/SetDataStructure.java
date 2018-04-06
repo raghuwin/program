@@ -47,7 +47,7 @@ public class SetDataStructure {
         setData.add(3);
         System.out.println(setData);
         setData.remove(2);
-       // System.out.println(setData);
+        System.out.println(setData);
         System.out.println(setData.get(2));
     }
 }
