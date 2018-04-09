@@ -52,7 +52,8 @@ public class ArrayListLineTest {
 
         listString = listString.parallelStream()
                 .sorted(thisComp)
-                .collect(Collectors.toCollection(ArrayList::new));
+                .collect(Collectors.toList());
+               // .collect(Collectors.toCollection(ArrayList::new));
 
         System.out.println(listString);
     }
